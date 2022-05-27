@@ -1,0 +1,210 @@
+{
+	"id": "0fce18aa-3505-4063-9790-642abc4db9ba",
+	"name": "ISST",
+	"timestamp": "2022-05-04T20:28:12.972Z",
+	"collection_id": "16523743-b032fe60-512c-4c51-8b03-d62a5d82dc21",
+	"folder_id": "16523743-66a5f452-70af-4437-bc89-6156392956f7",
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "432c3718-f8e3-47ec-9cf3-e2a065d47214",
+			"name": "verificados",
+			"url": "http://localhost:8080/api/resumen/verificado",
+			"time": 563,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				563
+			],
+			"allTests": [
+				{
+					"Status Test": true
+				}
+			]
+		},
+		{
+			"id": "4aeaf40e-6523-46e8-b804-99d96564860e",
+			"name": "noverificados",
+			"url": "http://localhost:8080/api/resumen/noverificado",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status Test": true
+				}
+			]
+		},
+		{
+			"id": "118343c7-8d44-45eb-8ae8-a15a9b3e6cbb",
+			"name": "resumenesdeusuario",
+			"url": "http://localhost:8080/api/resumen/usuario?user_id=1",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status Test": true
+				}
+			]
+		},
+		{
+			"id": "4a2acafc-2df5-43f4-b74e-b06f3b750838",
+			"name": "verificar",
+			"url": "http://localhost:8080/api/resumen/verified?resume_id=1",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status Test": true
+				}
+			]
+		},
+		{
+			"id": "5cce62be-ae36-4cf1-bc38-ba3dde2da0fe",
+			"name": "premium",
+			"url": "http://localhost:8080/api/resumen/premium?resume_id=5",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status Test": true
+				}
+			]
+		},
+		{
+			"id": "bc4c2e31-e8b6-4689-bfa5-2e33ca0520ed",
+			"name": "resume",
+			"url": "http://localhost:8080/api/resumen",
+			"time": 83,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status Test": true,
+				"Signup Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Signup Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Signup Test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 905,
+	"collection": {
+		"requests": [
+			{
+				"id": "432c3718-f8e3-47ec-9cf3-e2a065d47214",
+				"method": "GET"
+			},
+			{
+				"id": "4aeaf40e-6523-46e8-b804-99d96564860e",
+				"method": "GET"
+			},
+			{
+				"id": "118343c7-8d44-45eb-8ae8-a15a9b3e6cbb",
+				"method": "GET"
+			},
+			{
+				"id": "4a2acafc-2df5-43f4-b74e-b06f3b750838",
+				"method": "PUT"
+			},
+			{
+				"id": "5cce62be-ae36-4cf1-bc38-ba3dde2da0fe",
+				"method": "PUT"
+			},
+			{
+				"id": "bc4c2e31-e8b6-4689-bfa5-2e33ca0520ed",
+				"method": "POST"
+			}
+		]
+	}
+}

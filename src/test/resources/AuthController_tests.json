@@ -1,0 +1,92 @@
+{
+	"id": "f419b513-1e77-4157-bfcf-ba8a7fff2df0",
+	"name": "ISST",
+	"timestamp": "2022-05-04T20:11:04.014Z",
+	"collection_id": "16523743-b032fe60-512c-4c51-8b03-d62a5d82dc21",
+	"folder_id": "16523743-b56e191a-2286-439d-89b5-5017cc24d9d2",
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "227c0555-b426-4657-bc24-8c74e070186e",
+			"name": "signup",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 113,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status Test": true,
+				"Signup Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Signup Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				113
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Signup Test": true
+				}
+			]
+		},
+		{
+			"id": "d12302dc-c982-466e-a87d-319bcb4d2a2a",
+			"name": "signin",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true,
+				"Signup Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Signup Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Signup Test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 222,
+	"collection": {
+		"requests": [
+			{
+				"id": "227c0555-b426-4657-bc24-8c74e070186e",
+				"method": "POST"
+			},
+			{
+				"id": "d12302dc-c982-466e-a87d-319bcb4d2a2a",
+				"method": "POST"
+			}
+		]
+	}
+}

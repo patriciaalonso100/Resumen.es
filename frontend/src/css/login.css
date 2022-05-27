@@ -1,0 +1,228 @@
+html {
+  --switchAT: 1.2s;
+
+  --btnH: 40px;
+  --btnW: 60%; 
+
+  --color-primary: #1A2930;
+  --color-secondary: #F7CE3E;
+  --color-aux: #fafbfa;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-color: var(--color-primary);
+}
+
+/* Estilos botones e input */
+.buttonL {
+border: none;
+outline: none;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+margin-bottom: 1rem;
+text-align: center;
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+width: 100%;
+height: var(--btnH);
+border-radius: 30px;
+}
+
+.buttonL2 {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+width: 60%;
+height: var(--btnH);
+border-radius: 20px;
+color: var(--color-secondary);
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 15px;
+}
+
+#submit {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  height: var(--btnH);
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+#img__btn{
+  width: 60%;
+  height: var(--btnH);
+  margin: 0 auto;
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+  border: 2px solid var(--color-secondary);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.inputL {
+  display: inline-block;
+  vertical-align: baseline;
+  background: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 30%;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  color: var(--color-aux);
+  padding: 3%;
+}
+
+.inputL:focus {
+color: var(--color-aux);
+}
+
+
+/* Estilo contenedor */
+.cont {
+  position: relative;
+  width: 60%;
+  height: 550px;
+  margin: 70px auto 100px;
+  background-color: var(--color-primary);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0rem 2px 2rem 2rem rgba(0,0,0,0.1);
+  margin-top: 10%;
+}
+
+.cont__mobile {
+  position: relative;
+  width: 60%;
+  height: fit-content;
+  margin: 70px auto 100px;
+  background-color: var(--color-primary);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0rem 2px 2rem 2rem rgba(0,0,0,0.1);
+  margin-top: 10%;
+}
+
+/* Estilo formulario */
+.form {
+  position: relative;
+  color: #fff;
+  text-align: center; 
+  align-content: center;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  padding-top: 10rem;
+  padding-left: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__mobile {
+    position: relative;
+    color: #fff;
+    text-align: center; 
+    align-content: center;
+    top: 0;
+    width: fit-content;
+    height: fit-content;
+    padding: 7rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+/* Estilos imagen */
+.img {
+position: absolute;
+left: 0;
+top: 0;
+width: 30%;
+height: 100%;
+padding-top: 360px;
+content: '';
+height: 100%;
+background-image: url('../../public/libros.jpg');
+background-size: cover;
+background-position: center center;
+}
+
+.img__mobile {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 30%;
+content: '';
+background-image: url('../../public/libros.jpg');
+background-size: cover;
+background-position: center center;
+}
+
+.content__img {
+position: absolute;
+width: 100%;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+-webkit-transform: translate(-50%, -50%);
+}
+
+.img__text {
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 0 20px;
+text-align: center;
+color: var(--color-primary-color-secondary);
+}
+
+
+
+#h2L {
+margin-bottom: 10px;
+font-weight: normal;
+text-align: center;
+
+}
+
+#pL {
+font-size: 14px;
+line-height: 1.5;
+}
+
+#labelL {
+display: block;
+width: 100%;
+margin: 25px auto 0;
+text-align: center;
+}
+
+.forgot-pass {
+margin-top: 15px;
+text-align: center;
+font-size: 12px;
+color: #fff;
+}

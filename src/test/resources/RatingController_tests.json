@@ -1,0 +1,123 @@
+{
+	"id": "99badfbf-52c6-4b5b-9176-22c958bbaebb",
+	"name": "ISST",
+	"timestamp": "2022-05-04T20:35:55.550Z",
+	"collection_id": "16523743-b032fe60-512c-4c51-8b03-d62a5d82dc21",
+	"folder_id": "16523743-b7616d58-0ffc-4d62-a497-d7617b8bb298",
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "18dd5732-14ab-4ceb-8425-362e2c4921c0",
+			"name": "valoracion",
+			"url": "http://localhost:8080/api/valoracion/post",
+			"time": 15,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status Test": true,
+				"Post Valoracion Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Post Valoracion Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Post Valoracion Test": true
+				}
+			]
+		},
+		{
+			"id": "17579353-1d8d-428b-8854-19db47b1fb7f",
+			"name": "valoracion",
+			"url": "http://localhost:8080/api/valoracion/put",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status Test": true
+				}
+			]
+		},
+		{
+			"id": "79863261-3b10-4e20-85de-db9481a6431e",
+			"name": "valoracionmedia",
+			"url": "http://localhost:8080/api/valoracionmedia?resume_id=7",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true,
+				"Get Valoracion Media Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get Valoracion Media Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Get Valoracion Media Test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 51,
+	"collection": {
+		"requests": [
+			{
+				"id": "18dd5732-14ab-4ceb-8425-362e2c4921c0",
+				"method": "POST"
+			},
+			{
+				"id": "17579353-1d8d-428b-8854-19db47b1fb7f",
+				"method": "PUT"
+			},
+			{
+				"id": "79863261-3b10-4e20-85de-db9481a6431e",
+				"method": "GET"
+			}
+		]
+	}
+}

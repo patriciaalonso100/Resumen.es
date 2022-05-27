@@ -1,0 +1,166 @@
+{
+	"id": "b2e12e94-b03a-4c49-af5d-8bc9436c7e87",
+	"name": "ISST",
+	"timestamp": "2022-05-04T20:22:08.757Z",
+	"collection_id": "16523743-b032fe60-512c-4c51-8b03-d62a5d82dc21",
+	"folder_id": "16523743-dc3a94b8-edca-49ad-b163-581d38f33dcd",
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "37ce9b2d-6fa7-49c0-8f4d-4d4e4ccb3536",
+			"name": "premium",
+			"url": "http://localhost:8080/api/usuario/premium?user_id=2&premium=true",
+			"time": 198,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true,
+				"Put Premium User Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Put Premium User Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				198
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Put Premium User Test": true
+				}
+			]
+		},
+		{
+			"id": "96b9c76b-809e-421c-9be8-d13ccb3600fd",
+			"name": "iban",
+			"url": "http://localhost:8080/api/usuario/iban?user_id=2&iban=ES9420805801101238567891",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true,
+				"Put IBAN Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Put IBAN Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Put IBAN Test": true
+				}
+			]
+		},
+		{
+			"id": "f062d392-338a-4fee-be10-5d2c5c0321bb",
+			"name": "name",
+			"url": "http://localhost:8080/api/usuario/nombre?name=Antonio&user_id=2",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true,
+				"Put Name Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Put Name Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Put Name Test": true
+				}
+			]
+		},
+		{
+			"id": "082bec88-1286-46ba-be41-308962aaa601",
+			"name": "surname",
+			"url": "http://localhost:8080/api/usuario/apellido?surname=L%C3%B3pez&user_id=2",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Test": true,
+				"Put Surname Test": true
+			},
+			"testPassFailCounts": {
+				"Status Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Put Surname Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status Test": true,
+					"Put Surname Test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 247,
+	"collection": {
+		"requests": [
+			{
+				"id": "37ce9b2d-6fa7-49c0-8f4d-4d4e4ccb3536",
+				"method": "PUT"
+			},
+			{
+				"id": "96b9c76b-809e-421c-9be8-d13ccb3600fd",
+				"method": "PUT"
+			},
+			{
+				"id": "f062d392-338a-4fee-be10-5d2c5c0321bb",
+				"method": "PUT"
+			},
+			{
+				"id": "082bec88-1286-46ba-be41-308962aaa601",
+				"method": "PUT"
+			}
+		]
+	}
+}
