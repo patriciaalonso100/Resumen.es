@@ -1,2 +1,2 @@
 # Resumen.es
-Aplicación Resumen.es para asignatura ISST
+Web application for acquiring summaries of books. Used Java in Spring Boot and H2 database.
